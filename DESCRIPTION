@@ -1,0 +1,20 @@
+Package: Nilpotent.Matrix
+Type: Package
+Title: Absorbing Markov Chains and Nilpotent Matrix Diagnostics for Predictive maintenance
+Version: 0.1.0
+Authors@R: c(
+    person(
+    "Esther Grâce Divine", "NGO LISSOUCK",
+      email = "graceesther617@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implements absorbing Markov chain models with competing risks 
+    and nilpotency testing for industrial predictive maintenance. 
+    Extracts transition sub-matrices Q and fundamental matrices N, 
+    evaluates survival horizons, and identifies dominant failure modes 
+    using engineering datasets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1
